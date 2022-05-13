@@ -1,7 +1,61 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 * {
 /*background-color: lightskyblue;*/
 }
 
+body {
+    color: brown;
+    background-color: burlywood;
+}
+
+/*LOGO*/
+#logo {
+
+}
+
+/*SIDEBAR*/
+.css-dynamic-sidebar {
+    overflow: hidden;
+    position: relative;
+    height: 15em;
+    max-width: 15em;
+    margin: auto;
+}
+
+.site-content {
+    margin: auto;
+}
+
+#sideNav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 100%;
+    padding: 1em;
+    background-color: #f3f3f3;
+    transform: translateX(1em);
+    transition: 0.2s transform;
+}
+
+#sideNav:hover,
+#sideNav:focus-within {
+    transform: translateX(100%);
+}
+
+#sideNav > a {
+    white-space: pre;
+    color: black;
+}
+
+#sideNav > p {
+    font-size: 2em;
+    font-family: monospace;
+    text-align: center;
+}
+/*SCROLL H1*/
+#scrollText {
+    animation: 3s ease-in 1s infinite reverse both running slidein;
+}
 /* ACCORDION */
 main {
     max-width: 400px;
@@ -29,7 +83,7 @@ details[open] summary ~ * {
 }
 @keyframes sweep {
     0%    {opacity: 0; margin-top: -10px}
-    100%  {opacity: 1; margin-top: 0px}
+    100%  {opacity: 1; margin-top: 1px}
 }
 details > summary::after {
     position: absolute;
@@ -51,7 +105,6 @@ details > summary::-webkit-details-marker {
     text-decoration: none !important;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
-    font-family: 'Press Start 2P', cursive;
 }
 
 #footer ul.social li {
@@ -64,6 +117,7 @@ details > summary::-webkit-details-marker {
     -webkit-transition: .5s all ease;
     -moz-transition: .5s all ease;
     transition: .5s all ease;
+    color: #f3f3f3;
 }
 
 #footer ul.social li:hover a i {
