@@ -8,9 +8,11 @@ body {
     background-color: burlywood;
 }
 
-/*LOGO*/
-#logo {
-
+/*PROFILE IMAGE*/
+#myProfile {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
 }
 
 /*SIDEBAR*/
