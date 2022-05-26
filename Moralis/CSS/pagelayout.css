@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: burlywood;
+}
+
+/* HEADER STYLING */
+
+.header-container {
+    display: flex;
+}
+
+.logo {
+    padding-left: 20px;
+    width: 30%;
+}
+
+.main-nav {
+    width: 70%;
+}
+
+.menu-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25px;
+}
+
+.menu-item {
+    margin: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
