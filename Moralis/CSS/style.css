@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+}
+
+/*class is second selector*/
+.dashed-border {
+    border: 2px dashed darkblue;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+/*id are selected first*/
+#moralis-reference {
+    text-shadow: 2px 2px 7px darkcyan;
+}
+
+button {
+    border: none;
+    box-shadow: 3px 3px 7px rgba(44, 44, 44, 0.6);
+    cursor: pointer;
+}
+
+form {
+    padding: 15px;
+    border: 2px solid black;
+    margin: 30px;
+}
+
+/*Styling a attribute*/
+[type=text], [type = number], [type = submit] {
+    padding: 8px;
+}
+
