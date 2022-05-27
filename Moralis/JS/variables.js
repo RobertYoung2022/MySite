@@ -1,5 +1,5 @@
 
-// Get a users' name
+/*// Get a users' name
 let name = prompt('Enter your name: ');
 
 // Show a greetings message with inputted name
@@ -38,4 +38,24 @@ const owner = {
     accountNumber: amount
 };
 
-alert(`Owner: ${owner.name} has a balance of ${owner.accountNumber}.`);
+alert(`Owner: ${owner.name} has a balance of ${owner.accountNumber}.`);*/
+
+
+// ARRAYS LESSON
+let cheatCode = [19, 65, 9, 17];
+console.log(cheatCode);
+console.log(cheatCode[0]);
+console.log(cheatCode[1]);
+console.log(cheatCode[2]);
+console.log(cheatCode[3]);
+console.log(`The last value in the array is: ${cheatCode[cheatCode.length - 1]}`);
+// console.log(cheatCode.toString());
+console.log(cheatCode.join("-"));
+// document.body.innerHTML = `<ul><li>${cheatCode.join('<li></li>')}</li></ul>`;
+
+
+let abc = ['a', 'b', 'c'];
+let cba = abc.reverse();
+
+console.log(cba);
+console.log(cba.sort());
