@@ -9,7 +9,7 @@ let btcBalance = 0;
 //LValue  (left) = RValue (right)
 btcBalance = btcBalance + 0.1;
 btcBalance = btcBalance + 0.2;
-
+// value
 console.log("btcBalance = " + btcBalance);
 
 //-------------------------------------------------------------
