@@ -53,13 +53,13 @@ console.log(`The last value in the array is: ${cheatCode[cheatCode.length - 1]}`
 console.log(cheatCode.join("-"));
 // document.body.innerHTML = `<ul><li>${cheatCode.join('<li></li>')}</li></ul>`;
 
-cheatCode.push(5);
+cheatCode.push(5); // push - adds value to end of an array
 cheatCode.push(2);
 console.log(`new code is ${cheatCode.join(' / ')}`);
 
 var newCheatCode = cheatCode.slice(); // clone original cheat code and copies into newCheatCode
 
-console.log(newCheatCode.pop()); //
+console.log(newCheatCode.pop()); // push - removes value to end of an array
 
 let abc = ['a', 'b', 'c'];
 let cba = abc.reverse();
