@@ -8,14 +8,14 @@ const cryptos = ['BTC', 'ETH', 'USDT', 'BNB', 'ADA', 'XRP'];
 
 //LOOPS
 
-// FOR OF... LOOP - gives one element per iteration through the loop
+// TODO: FOR OF... LOOP - gives one element per iteration through the loop
 
 for (let crypto of cryptos) {
     console.log(`FOR OF LOOP: ${crypto}`);
 }
 console.log('----------'); // creating a line in the code
 
-// FOR IN... LOOP - gives the indexes of elements in an array or list
+// TODO: FOR IN... LOOP - gives the indexes of elements in an array or list
 
 for (let index in cryptos) {
     // console.log(index + ':' + typeof index);
@@ -24,7 +24,7 @@ for (let index in cryptos) {
 console.log('----------'); // creating a line in the code
 
 
-// FOR... LOOP
+// TODO: FOR... LOOP
 
 for (let i = 0; i < cryptos.length; i += 1) {
     console.log(`FOR LOOP: ${cryptos[i]}`);
@@ -32,7 +32,7 @@ for (let i = 0; i < cryptos.length; i += 1) {
 console.log('----------'); // creating a line in the code
 
 
-// FOR WHILE... LOOP - run as long as the length of an array or list
+// TODO: FOR WHILE... LOOP - run as long as the length of an array or list
 
 let i = 0;
 while  (i < cryptos.length) {
